@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.yczhangsjtu.daylog.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/label_start"/>
+            <Button
+                android:id="@+id/button_task_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorShallowButton"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/text_timer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/main_time_margin"
+                android:text="@string/time_zero"
+                android:textSize="@dimen/main_time_font_size"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button_stop"
+                android:layout_width="@dimen/control_button_size"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/main_time_margin"
+                android:text="P"/>
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="@dimen/control_button_size"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/main_time_margin"
+                android:text="C"/>
+            <Button
+                android:id="@+id/button_statistic"
+                android:layout_width="@dimen/control_button_size"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/main_time_margin"
+                android:text="S"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/label_start_from"
+                android:layout_marginRight="@dimen/start_from_margin" />
+            <TextView
+                android:id="@+id/start_from"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/time_empty_date"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/plan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main_detail_margin"
+            android:text=""/>
+    </LinearLayout>
+
+</FrameLayout>

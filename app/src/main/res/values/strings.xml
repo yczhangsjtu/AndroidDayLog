@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DayLog</string>
+    <string name="app_title">Day Log</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_task">Tasks</string>
+    <string name="label_new_task">New Task</string>
+    <string name="label_start">Start</string>
+    <string name="label_start_from">Started from</string>
+    <string name="label_task_name">Task Name:</string>
+    <string name="label_task_group">Task Group:</string>
+    <string name="label_task_content">Task Content:</string>
+    <string name="label_task_level">Task Level:</string>
+    <string name="label_task_plan">Task Plan:</string>
+    <string name="label_ok">OK</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="time_zero">00:00:00</string>
+    <string name="time_empty_date">2000.01.01/00:00</string>
+    <string name="empty_task_name">Empty task name!</string>
+    <string name="task_already_exist">Task already exist!</string>
+    <string name="task_not_selected">Task not selected!</string>
+    <string name="label_delete">Delete</string>
+    <string name="actions">Actions</string>
+    <string name="label_start_time">Start Time</string>
+    <string name="label_finish_time">Finish Time</string>
+    <string name="content">Content</string>
+    <string name="task_not_started">Task not started!</string>
+    <string name="label_schedule_group">Schedule Group:</string>
+
+    <string-array name="level_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="schedule_actions">
+        <item>Delete</item>
+    </string-array>
+
+</resources>
